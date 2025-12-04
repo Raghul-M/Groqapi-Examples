@@ -74,6 +74,26 @@ cd File-Analyzer
 streamlit run app.py
 ```
 
+### Docker Deployment
+
+**Chat-App:**
+```bash
+cd Chat-App
+
+# Set your API key (optional, can also pass directly in command)
+export GROQ_API_KEY=your_api_key_here
+
+# Build and run using docker.sh
+./docker.sh
+```
+
+Or manually:
+```bash
+cd Chat-App
+docker build -t raghulm/groq-chatapp:v1.0.0 .
+docker run -p 8501:8501 -e GROQ_API_KEY=your_api_key_here raghulm/groq-chatapp:v1.0.0
+```
+
 ## Configuration
 
 Create a `.env` file in the root directory:
