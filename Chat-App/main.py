@@ -19,6 +19,6 @@ if st.button("Generate"):
                 "content": user_input,
             }
         ],
-        model="openai/gpt-oss-20b",
+        model="llama-3.1-8b-instant",
     )
     st.write(chat_completion.choices[0].message.content)

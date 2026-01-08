@@ -8,6 +8,7 @@ A curated collection of production-ready applications demonstrating the power of
 
 - **Ultra-low latency** chat interactions powered by Groq's inference engine
 - **Multi-format file analysis** supporting PDF, DOCX, TXT, LOG, JSON, and YAML
+- **AIOps Project Ideas** - A detailed list of [GenAI & DevOps focused AIOps projects](file:///Users/ragm/Personal/Groqapi-Examples/AIOPS_PROJECTS.md)
 - **Streamlit-based UI** for intuitive user experiences
 - **Production-ready** code structure with environment variable management
 
